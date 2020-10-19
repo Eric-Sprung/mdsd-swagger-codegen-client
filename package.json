@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Eric-Sprung/mdsd-swagger-codegen#readme",
   "dependencies": {
-    "swagger-js-codegen": "^1.13.0"
+    "swagger-node-codegen": "^1.6.3"
   }
 }
