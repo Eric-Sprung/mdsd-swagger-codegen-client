@@ -1,3 +1,0 @@
-# Api Documentation
-
-Api Documentation

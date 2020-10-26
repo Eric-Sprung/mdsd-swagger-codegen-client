@@ -1,1 +1,0 @@
-# mdsd-swagger-codegen-client
