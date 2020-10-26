@@ -1,15 +1,10 @@
 ### Getting Started
-## clone this Repo
-git clone https://github.com/swagger-api/swagger-codegen
 
-## install Maven
-sudo apt install maven
+## get latest version of swagger-codegen
+wget https://repo1.maven.org/maven2/io/swagger/codegen/v3/swagger-codegen-cli/3.0.22/swagger-codegen-cli-3.0.22.jar -O swagger-codegen-cli.jar
 
-## build the project
-mvn clean package
+## you need more help? 
+java -jar swagger-codegen-cli.jar --help
 
 ## generate a client from model.json
-java -jar modules/swagger-codegen-cli/target/swagger-codegen-cli.jar generate \
-   -i ./../model.json \
-   -l php \
-   -o ./clients/php_api_client
+java -jar swagger-codegen-cli.jar generate -i ./../model.json -l php -o ./clients/php_api_client
