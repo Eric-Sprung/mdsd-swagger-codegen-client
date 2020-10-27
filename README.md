@@ -9,6 +9,10 @@ wget https://repo1.maven.org/maven2/io/swagger/codegen/v3/swagger-codegen-cli/3.
 java -jar swagger-codegen-cli.jar --help
 java -jar swagger-codegen-cli.jar generate --help
 ```
+
+## Generate a Client-Stubs from url
+java -jar swagger-codegen-cli.jar generate -i http://localhost:9090/v2/api-docs -l php -o ./clients/php_api_client
+
 ## Generate a Client-Stubs from model.json
 ### PHP
 ```bash
