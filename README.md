@@ -33,10 +33,10 @@ java -jar swagger-codegen-cli.jar generate -i ./model.json -l nodejs-server -o .
 
 ### JAVA Spring
 ```bash
-java -jar swagger-codegen-cli.jar generate -i ./model.json -l spring -o ./clients/spring_api_server
+java -jar swagger-codegen-cli.jar generate -i ./model.json -l spring -o ./servers/spring_api_server
 ```
 
 ### go-server
 ```bash
-java -jar swagger-codegen-cli.jar generate -i ./model.json -l go-server -o ./clients/go_api_server
+java -jar swagger-codegen-cli.jar generate -i ./model.json -l go-server -o ./servers/go_api_server
 ```
