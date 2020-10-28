@@ -11,7 +11,9 @@ java -jar swagger-codegen-cli.jar generate --help
 ```
 
 ## Generate a Client-Stubs from url
+```bash
 java -jar swagger-codegen-cli.jar generate -i http://localhost:9090/v2/api-docs -l php -o ./clients/php_api_client
+```
 
 ## Generate a Client-Stubs from model.json
 ### PHP
